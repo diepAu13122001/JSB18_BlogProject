@@ -12,10 +12,23 @@
     margin-bottom: 20px;
 }
 
-.item{
+#weight{
     font-weight: 700;
 }
 
-.text{
-    font-weight: none;
+.centermid{
+ font-size: xx-large
+}
+
+.mid{
+    text-align: center;
+}
+
+.services{
+    text-align: center;
+}
+
+.aboutus{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
