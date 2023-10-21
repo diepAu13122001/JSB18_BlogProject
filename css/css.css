@@ -1,3 +1,17 @@
 .memul{
     list-style-type: circle;
 }
+
+.main-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main-section .item{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item{
+    font-weight: 700;
+}
