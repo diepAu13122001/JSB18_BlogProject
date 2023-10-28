@@ -3,19 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <title>sign in and sig up</title>
+    <link rel="stylesheet" href="ducanh.css">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form action="">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
-        </form>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body tab-content">
+                        <div class="tab-pane fade show active" id="signup-tab">
+                           
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" id="username" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="signin-tab">
+                            <form>
+                                <div class="form-group">
+                                    <label for="login-username">Username</label>
+                                    <input type="text" id="login-username" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="login-password">Password</label>
+                                    <input type="password" id="login-password" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Sign In</button>
+                            </form>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 </body>
 </html>
