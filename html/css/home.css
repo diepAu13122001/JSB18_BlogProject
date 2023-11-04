@@ -1,64 +1,3 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
-.form-container {
-    width: 300px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-}
-
-h2 {
-    text-align: center;
-}
-
-form {
-    margin-top: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 10px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-button[type="submit"] {
-    background-color: #008CBA;
-}
-
-button[type="submit"]:hover {
-    background-color: #0077A3;
-}
-
-
 body {
     /* background-image: url("https://img.freepik.com/free-vector/flat-design-forest-landscape_23-2149155031.jpg?w=1800&t=st=1699072380~exp=1699072980~hmac=33a21b7a1bbc8b75843765b46cc13a03dfcc8abf0d7f425b0852699121ec3f8f");
     background-repeat: no-repeat;
@@ -119,7 +58,20 @@ body {
   }
   
   /* -------------------------- Main -------------------------------- */
-  
+  #postlist{
+    margin: 0 auto;
+    width: 80%;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .post img {
+    border-radius: 15px;
+  }
+  .post .card-body .card-title{
+    text-transform: capitalize;
+    line-height: 50px;
+  }
   /* ------------------------- Footer ------------------------------ */
   #footer {
     max-height: 500px;
