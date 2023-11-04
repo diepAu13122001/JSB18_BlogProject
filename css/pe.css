@@ -190,3 +190,19 @@
     margin: 10px 15px 15px 0px;
     cursor: pointer;
   }
+
+  
+  #putton{
+    text-align: center;
+    background-color: transparent;
+    color:gray;
+    font-weight: 700;
+    font-size: large;
+    padding: 12px 24px;
+    border: 1px solid blue;
+  }
+
+  #putton:hover{
+    background-color: #ccc;
+    color: black;
+  }
