@@ -34,7 +34,7 @@
 }
 
 #nav {
-    background-color: red;
+    background-color:rgb(69, 96, 130, 0.5);
     display: flex;
     position: fixed;
     width: 100%;
@@ -159,7 +159,7 @@
   /* -------------------------- Main -------------------------------- */
   
   /* ------------------------- Footer ------------------------------ */
-  #Contact {
+  #footer {
     max-height: 500px;
     background-color: black;
     display: grid;
@@ -170,23 +170,23 @@
     padding: 15px;
   }
   
-  #Contact .column {
+  #footer .column {
     padding: 15px 25px;
     width: 90%;
   }
   
-  #Contact .column .title {
+  #footer .column .title {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bolder;
     margin-bottom: 15px;
   }
   
-  #Contact .column .title img {
+  #footer .column .title img {
     max-width: 80px;
   }
   
-  #Contact .column .content .text i {
+  #footer .column .content .text i {
     font-size: 30px;
     margin: 10px 15px 15px 0px;
     cursor: pointer;
