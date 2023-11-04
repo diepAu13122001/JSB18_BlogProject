@@ -39,9 +39,8 @@
     position: fixed;
     width: 100%;
     justify-content: space-around;
-    padding: 5px 10px;
     text-transform: uppercase;
-    line-height: 50px;
+    line-height: auto;
     text-align: center;
     font-weight: bolder;
     z-index: 1;
@@ -122,11 +121,6 @@
   /* ------------------------ Navigation ------------------------ */
   
   
-#ducat{
-    justify-content: center;
-    font-size: large;
-}
-
   #logo img {
     max-height: 50px;
   }
