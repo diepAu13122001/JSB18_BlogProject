@@ -22,3 +22,7 @@ function checkUser() {
         }
     }
 }
+
+function getUser () {
+    
+}
