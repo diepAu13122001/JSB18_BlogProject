@@ -66,11 +66,11 @@ body {
     justify-content: center;
   }
   .post img {
-    border-radius: 15px;
+    border-radius: 5px;
   }
   .post .card-body .card-title{
     text-transform: capitalize;
-    line-height: 50px;
+    line-height: 40px;
   }
   /* ------------------------- Footer ------------------------------ */
   #footer {

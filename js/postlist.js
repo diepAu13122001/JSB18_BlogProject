@@ -7,10 +7,10 @@ const data = [
 { title: "This is a title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", picture: "https://nosomovo.xyz/wp-content/uploads/2019/10/hinh-anh-20-11-y-nghia-11.jpeg", created_by: "Walter hartwell white", created_at: "9-11-2009" },
   ];
   
-localStorage.setItem("postList", data);
+localStorage.setItem('postList', JSON.stringify (data));
 
 // get list from local storage
-const postlist = localStorage.getItem("postList");
+const postlist = JSON.parse(localStorage.getItem('postList'));
 
 // get item from html
 let list = "";

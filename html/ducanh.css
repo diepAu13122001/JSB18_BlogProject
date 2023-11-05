@@ -8,7 +8,7 @@
 
 .form-container {
     width: 300px;
-    padding: 20px;
+    padding: 40px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -25,19 +25,19 @@ form {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 button {
-    width: 100%;
+    width: 104%;
     padding: 10px;
     background-color: #4caf50;
     color: #fff;
@@ -152,4 +152,11 @@ body {
     font-size: 30px;
     margin: 10px 15px 15px 0px;
     cursor: pointer;
+  }
+  .body {
+      background-color: #f2f2f2;
+      background-image: url("https://previews.123rf.com/images/romaschka777/romaschka7771805/romaschka777180500060/100912072-beautiful-vector-background-for-a-holiday-teacher-s-day-postcard-poster-banner-packaging-training.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
   }
