@@ -1,0 +1,39 @@
+.post-detail {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+    line-height: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.post-author, .post-createdAt {
+    color: rgb(171, 170, 170);
+    font-weight: bolder;
+    width: 100%;
+}
+
+.post-pic {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.post-pic img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.post-content {
+    margin: 40px 0;
+    max-width: 80%;
+}
+
+.post-title {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 80px;
+    text-transform: capitalize;
+}
