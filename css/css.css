@@ -213,3 +213,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
   }
+
+  post{
+    width: 200px;
+  }
+
+  
