@@ -22,11 +22,19 @@ function setPostInformation() {
 
   // set author information
   document.getElementsByClassName("post-author")[0].innerHTML = post.created_by;
+  
+  // set createdAt information
+  document.getElementsByClassName("post-createdAt")[0].innerHTML = post.created_at;
 
   //set image link
   document.querySelector(".post-pic img").src = post.picture;
 
-  
+   //set title
+   document.getElementsByClassName("post-title")[0].innerHTML = post.title;
+
+    //set content
+    document.getElementsByClassName("post-details")[0].innerHTML = post.content;
+
 }
 
 // execute function set post information

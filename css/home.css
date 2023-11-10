@@ -1,107 +1,123 @@
-body {
-  /* background-image: url("https://img.freepik.com/free-vector/flat-design-forest-landscape_23-2149155031.jpg?w=1800&t=st=1699072380~exp=1699072980~hmac=33a21b7a1bbc8b75843765b46cc13a03dfcc8abf0d7f425b0852699121ec3f8f");
-  background-repeat: no-repeat;
-  background-size: 100% 800px; */
-  font-family: Arial, sans-serif;
-  padding: 0;
-  margin: 0 auto;
-}
-
-/* ------------------------ Navigation ------------------------ */
-
-#nav {
-  background-color: rgb(69, 96, 130, 0.5);
-  display: flex;
-  position: fixed;
-  width: 100%;
-  justify-content: space-around;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  line-height: 50px;
-  text-align: center;
-  font-weight: bolder;
-  z-index: 1;
-}
-
-#logo img {
-  max-height: 50px;
-}
-
-#logo,
-.tabs {
-  display: flex;
-  justify-content: center;
-}
-
-.tabs a {
-  text-decoration: none;
-  font-size: large;
-  margin: 0 20px;
-  color: white;
-  padding: 3px 10px;
-}
-
-.tabs a:hover {
-  text-decoration: underline;
-  color: aquamarine;
-}
-
-#signin {
-  border: 1px solid white;
-  padding: 1px 25px;
-  border-radius: 10px;
-}
-
-#signin:hover {
-  border: 1px dotted aquamarine;
-  text-decoration: none;
-}
-
 /* -------------------------- Main -------------------------------- */
-#postlist{
-  margin: 0 auto;
-  width: 80%;
-  padding: 25px 50px;
+
+#website,
+#aboutus,
+#contact {
+  padding: 40px 20px;
+  text-align: center;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
 }
-.post img {
+
+section .title {
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 25px 35px;
+  text-align: center;
+  width: 100%;
+}
+
+/* --------------- website section ------------------------------- */
+
+
+
+.popular-posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+  column-gap: 20px;
+}
+
+.post {
+  padding: 15px 20px;
+  text-align: left;
+}
+.post-pic {
+  width: 100%;
   border-radius: 15px;
 }
-.post .card-body .card-title{
+
+.post-title {
   text-transform: capitalize;
-  line-height: 50px;
-}
-/* ------------------------- Footer ------------------------------ */
-#footer {
-  max-height: 500px;
-  background-color: black;
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  column-gap: 25px;
-  color: white;
-  justify-content: center;
-  padding: 15px;
-}
-
-#footer .column {
-  padding: 15px 25px;
-  width: 90%;
-}
-
-#footer .column .title {
   font-size: 25px;
-  text-transform: uppercase;
   font-weight: bolder;
-  margin-bottom: 15px;
 }
 
-#footer .column .title img {
-  max-width: 80px;
+.post hr {
+  width: 20%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0;
+  border: 3px solid rgb(69, 96, 130);
+  border-radius: 15px;
 }
 
-#footer .column .content .text i {
-  font-size: 30px;
-  margin: 10px 15px 15px 0px;
-  cursor: pointer;
+.post-detail {
+  height: 100px;
+  /* an phan du ra o phia duoi */
+  overflow: hidden;
 }
+
+.postlist-btn {
+  margin: 30px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  background-color: rgb(69, 96, 130);
+  border-radius: 15px;
+}
+
+.postlist-btn:hover {
+  border: 1px solid rgb(69, 96, 130);
+  background-color: transparent;
+  color: rgb(69, 96, 130);
+}
+
+/* --------------- about us section ------------------------------- */
+#aboutus {
+  background-color: rgb(196, 229, 255);
+}
+
+.intro {
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+  padding: 10px 150px;
+}
+
+.mem-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  /* hinh không bị dẹp lại khi phải thay đổi kích thước khung */
+  object-fit: cover;
+}
+
+#aboutus .post-content {
+  padding: 10px 20px;
+}
+
+.mem-tasks {
+  font-size: 20px;
+  color:gray
+}
+
+/* ------------------------- contact section --------------------- */
+.contact {
+  width: 60%;
+}
+ 
+.contact input, .contact textarea {
+  width: 100%;
+  margin: 15px 0;
+  line-height: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+} 

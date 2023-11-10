@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/home.css" />
-    <link rel="stylesheet" href="../css/edit.css" />
+    <title>Post create</title>
+
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/postcreate.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script
       src="https://kit.fontawesome.com/28628122c2.js"
@@ -21,16 +24,13 @@
   <body>
     <nav id="nav">
       <div id="logo">
-        <img
-          src="https://logos-world.net/wp-content/uploads/2020/09/Fila-Logo.png"
-          alt="logo"
-        />
+        <img src="https://i.ibb.co/N2pv4VD/1.png" alt="logo" />
       </div>
       <div class="tabs">
-        <a href="#home" target="_self">Home</a>
-        <a href="#aboutweb" target="_self">Services</a>
-        <a href="#aboutus" target="_self">About</a>
-        <a href="#contact" target="_self">Contact</a>
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#website">Posts</a>
+        <a href="../index.html#aboutus">About</a>
+        <a href="../index.html#contact">Contact</a>
         <a href="../html/signin.html" id="signin">Login</a>
       </div>
     </nav>
@@ -99,8 +99,8 @@
         $(".carousel").carousel();
       </script>
 
-      <h1>CrEAte post</h1>
       <form id="ducat" method="dialog">
+        <h1>CrEAte post</h1>
         <label for="Title">Title</label>
         <input
           type="text"
@@ -111,13 +111,13 @@
         />
         <br />
         <label for="Content">Content</label>
-        <input
-          type="text"
-          id="Content"
+        <textarea
           name="Content"
-          placeholder="Content"
+          id="Content"
+          cols="30"
+          rows="10"
           required
-        />
+        ></textarea>
         <br />
         <label for="Picture" Picture>Picture</label>
         <input
@@ -128,24 +128,26 @@
           required
         />
         <br />
-        <input type="submit" id="submit" value="Submit" onclick="createPost()"/>
+        <input
+          type="submit"
+          id="submit"
+          value="Submit"
+          onclick="createPost()"
+        />
         <input type="reset" id="reset" value="Reset" />
         <br />
       </form>
     </main>
+
     <footer id="footer">
       <div class="column">
         <div class="title">
-          <img
-            src="https://logos-world.net/wp-content/uploads/2020/09/Fila-Logo.png"
-            alt="logo"
-            id="logo"
-          />
+          <img src="https://i.ibb.co/N2pv4VD/1.png" alt="logo" id="logo" />
         </div>
         <div class="content">
           <div class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore dolore magna aliqua.
+            This is a website had been built by JSB18 class in MindX school. You
+            can read and create post about Happy teacher day in this website.
           </div>
         </div>
       </div>
@@ -153,10 +155,13 @@
       <div class="column">
         <div class="title">Tags</div>
         <div class="content">
-          <div class="text">Home</div>
-          <div class="text">Posts</div>
-          <div class="text">About</div>
-          <div class="text">Contact</div>
+          <a href="../index.html#home">Home</a>
+          <br />
+          <a href="../index.html#website">Posts</a>
+          <br />
+          <a href="../index.html#aboutus">About</a>
+          <br />
+          <a href="../index.html#contact">Contact</a>
         </div>
       </div>
 
@@ -165,7 +170,7 @@
         <div class="content">
           <div class="text">101 E 129th St, East Chicago, IN 46312, US</div>
           <div class="text">Phone: 001-1234-88888</div>
-          <div class="text">Email: thisisnotanemail@gmail.com</div>
+          <div class="text">Email: info.colorlib@gmail.com</div>
           <div class="text">
             <i class="fa-brands fa-facebook" style="color: #456082"></i>
             <i class="fa-brands fa-square-instagram" style="color: #456082"></i>
@@ -175,7 +180,9 @@
       </div>
     </footer>
 
+    <script src="../js/nav.js"></script>
     <script src="../js/postcreate.js"></script>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

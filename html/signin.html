@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Đăng nhập và Đăng ký</title>
-    <link rel="stylesheet" type="text/css" href="../css/ducanh.css">
-</head>
-<body>
-    <div class="container">
+  <head>
+    <title>Đăng nhập</title>
+
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
+
+  </head>
+  <body>
+    <nav id="nav">
+      <div id="logo">
+        <img src="https://i.ibb.co/N2pv4VD/1.png" alt="logo" />
+      </div>
+      <div class="tabs">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#website">Posts</a>
+        <a href="../index.html#aboutus">About</a>
+        <a href="../index.html#contact">Contact</a>
+        <a href="../html/signin.html" id="signin">Login</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
         <div class="form-container">
-            <h2>log in</h2>
-            <form action="#" method="dialog">
-                <label for="login-username">Tên đăng nhập</label>
-                <input type="text" id="login-username" name="login-username" required>
+          <h2>log in</h2>
+          <form action="#" method="dialog">
+            <label for="login-username">Tên đăng nhập</label>
+            <input
+              type="text"
+              id="login-username"
+              name="login-username"
+              required
+            />
 
-                <label for="login-password">Mật khẩu</label>
-                <input type="password" id="login-password" name="login-password" required>
+            <label for="login-password">Mật khẩu</label>
+            <input
+              type="password"
+              id="login-password"
+              name="login-password"
+              required
+            />
 
-                <button type="submit" onclick="checkUser()">login</button>
-            </form>
+            <button type="submit" onclick="checkUser()">login</button>
+          </form>
         </div>
-    </div>
+      </div>
+    </main>
 
     <script src="../js/signin.js"></script>
-</body>
+  </body>
 </html>
