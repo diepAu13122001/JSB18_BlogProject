@@ -1,0 +1,14 @@
+#postlist {
+  margin: 0 auto;
+  width: 80%;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+}
+.post img {
+  border-radius: 15px;
+}
+.post .card-body .card-title {
+  text-transform: capitalize;
+  line-height: 50px;
+}

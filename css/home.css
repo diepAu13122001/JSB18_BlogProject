@@ -1,0 +1,123 @@
+/* -------------------------- Main -------------------------------- */
+
+#website,
+#aboutus,
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section .title {
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 25px 35px;
+  text-align: center;
+  width: 100%;
+}
+
+/* --------------- website section ------------------------------- */
+
+
+
+.popular-posts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+  column-gap: 20px;
+}
+
+.post {
+  padding: 15px 20px;
+  text-align: left;
+}
+.post-pic {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.post-title {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.post hr {
+  width: 20%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0;
+  border: 3px solid rgb(69, 96, 130);
+  border-radius: 15px;
+}
+
+.post-detail {
+  height: 100px;
+  /* an phan du ra o phia duoi */
+  overflow: hidden;
+}
+
+.postlist-btn {
+  margin: 30px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  border: none;
+  color: white;
+  background-color: rgb(69, 96, 130);
+  border-radius: 15px;
+}
+
+.postlist-btn:hover {
+  border: 1px solid rgb(69, 96, 130);
+  background-color: transparent;
+  color: rgb(69, 96, 130);
+}
+
+/* --------------- about us section ------------------------------- */
+#aboutus {
+  background-color: rgb(196, 229, 255);
+}
+
+.intro {
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+  padding: 10px 150px;
+}
+
+.mem-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  /* hinh không bị dẹp lại khi phải thay đổi kích thước khung */
+  object-fit: cover;
+}
+
+#aboutus .post-content {
+  padding: 10px 20px;
+}
+
+.mem-tasks {
+  font-size: 20px;
+  color:gray
+}
+
+/* ------------------------- contact section --------------------- */
+.contact {
+  width: 60%;
+}
+ 
+.contact input, .contact textarea {
+  width: 100%;
+  margin: 15px 0;
+  line-height: 25px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+} 
