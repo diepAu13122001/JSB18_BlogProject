@@ -95,7 +95,7 @@ if (document.getElementById("signin").innerHTML.toLocaleLowerCase() =="login") {
   // don't had logined yet -> alert
   alert("You need to login first!");
 } else {
-  location.href="../html/postcreate.html";
+  location.href="html/postcreate.html";
 }
 
 }
