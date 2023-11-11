@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  #nav {
+    background-color: rgb(69, 96, 130, 0.5);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    z-index: 1;
+  }
+  
+  #logo img {
+    max-height: 50px;
+  }
+  
+  #logo,
+  .tabs {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabs a {
+    text-decoration: none;
+    font-size: large;
+    margin: 0 20px;
+    color: white;
+    padding: 3px 10px;
+  }
+  
+  .tabs a:hover {
+    text-decoration: none;
+    color: rgb(69, 96, 130);
+  }
+  
+  #signin {
+    border: 1px solid white;
+    padding: 1px 25px;
+    border-radius: 10px;
+  }
+  
+  #signin:hover {
+    border: 1px solid rgb(69, 96, 130);
+    text-decoration: none;
+  }
