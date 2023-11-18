@@ -1,0 +1,229 @@
+*{
+    border-radius: 15px;
+  }
+  
+  #home{
+      display: flex;
+      justify-content: space-between;
+      background-color: black;
+      color:white
+  }
+  #pc{
+      color: white;
+  }
+  
+  #services{
+      display: flex;
+      justify-content: space-between;
+  }
+  .row {
+      background-color: aqua;
+      height: 10px;
+      border: none;
+      outline: none;
+      border-radius: 15px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  #fol{
+      font-weight: 900;
+  }
+  
+  
+  .co{
+      width:  25%;
+  }
+  
+  #nav {
+      background-color:rgb(69, 96, 130, 0.5);
+      display: flex;
+      position: fixed;
+      width: 100%;
+      justify-content: space-around;
+      text-transform: uppercase;
+      line-height: auto;
+      text-align: center;
+      font-weight: bolder;
+      z-index: 1;
+    }
+  
+  #servicesoffer,
+  #mid,
+  #title{
+      font-weight: 900;
+      text-align: center;
+      font-size: larger;
+  }
+  
+  .co-title{
+      text-align: center;
+      font-weight: 900;
+      font-size: medium;
+  }
+  
+  
+  .centermid{
+   font-size: xx-large
+  }
+  
+  .mid{
+      text-align: center;
+  }
+  
+  .services{
+      text-align: center;
+  }
+  
+  .aboutus{
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+  
+  .started{
+      text-align: center;
+      background-color: transparent;
+      color:gray;
+      font-weight: 700;
+      font-size: large;
+      padding: 12px 24px;
+      border: 1px solid blue;
+   }
+  
+   #mt{
+  
+      font-weight: 700;
+      font-size: large;
+  
+      display: flex;
+      justify-content:space-between;
+  }
+  
+  .mn{
+      background-color: red;
+      color:yellow;
+      border: 1px solid blue;
+  }
+  
+   .started:hover{
+      background-color: #ccc;
+      color: black;
+   }
+  
+  
+    body {
+      /* background-image: url("https://img.freepik.com/free-vector/flat-design-forest-landscape_23-2149155031.jpg?w=1800&t=st=1699072380~exp=1699072980~hmac=33a21b7a1bbc8b75843765b46cc13a03dfcc8abf0d7f425b0852699121ec3f8f");
+      background-repeat: no-repeat;
+      background-size: 100% 800px; */
+      font-family: Arial, sans-serif;
+      padding: 0;
+      margin: 0 auto;
+    }
+    
+    /* ------------------------ Navigation ------------------------ */
+    
+    
+    #logo img {
+      max-height: 50px;
+    }
+    
+    #logo,
+    .tabs {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .tabs a {
+      text-decoration: none;
+      font-size: large;
+      margin: 0 20px;
+      color: white;
+      padding: 3px 10px;
+    }
+    
+    .tabs a:hover {
+      text-decoration: underline;
+      color: aquamarine;
+    }
+    
+    #signin {
+      border: 1px solid white;
+      padding: 1px 25px;
+      border-radius: 10px;
+    }
+    
+    #signin:hover {
+      border: 1px dotted aquamarine;
+      text-decoration: none;
+    }
+    
+    /* -------------------------- Main -------------------------------- */
+    
+    /* ------------------------- Footer ------------------------------ */
+    #footer {
+      max-height: 500px;
+      background-color: black;
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      column-gap: 25px;
+      color: white;
+      justify-content: center;
+      padding: 15px;
+    }
+    
+    #footer .column {
+      padding: 15px 25px;
+      width: 90%;
+    }
+    
+    #footer .column .title {
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      margin-bottom: 15px;
+    }
+    
+    #footer .column .title img {
+      max-width: 80px;
+    }
+    
+    #footer .column .content .text i {
+      font-size: 30px;
+      margin: 10px 15px 15px 0px;
+      cursor: pointer;
+    }
+  
+    
+    #putton{
+      text-align: center;
+      background-color: transparent;
+      color:gray;
+      font-weight: 700;
+      font-size: large;
+      padding: 12px 24px;
+      border: 1px solid blue;
+    }
+  
+    #putton:hover{
+      background-color: #ccc;
+      color: black;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+  }
+  
+  
+  .form-container {
+    width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
